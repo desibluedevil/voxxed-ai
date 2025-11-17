@@ -6,7 +6,7 @@ Voxxed.ai is your new AI-powered voice assistant buddy that transcribes, underst
 
 We’re combining state-of-the-art speech recognition (thanks, Whisper 🙏) with a snarky little AI brain to create a cross-platform voice assistant that actually gets you. It’s like having Jarvis from Iron Man, if Jarvis were open-source and didn’t sell your data to Big Tech.
 
-Why Voxxed.ai?
+**Why Voxxed.ai?**
 
 🎙 Speak, Don’t Type: On average, you talk 3x faster than you type. (Yes, even you, speed-typist who thinks you’re the Flash of keyboards.) Voxxed.ai lets you blabber away at 150 words/min and captures it all. Ideas, meeting notes, grocery lists, sudden shower epiphanies – just yap (ahem, vox) and we’ll do the rest. Your thumbs can thank us later.
 
@@ -18,7 +18,7 @@ Why Voxxed.ai?
 
 🛠 Built by an AI (almost): Fun fact – this project is being built with heavy assistance from AI pair programmers because our human developers have no idea what they’re doing. 😅 Okay, slight exaggeration – but seriously, we’re leveraging GPT to write code, because why not use AI to build AI? Consider Voxxed.ai a product of human-AI friendship. ❤️
 
-What Can Voxxed.ai Do?
+**What Can Voxxed.ai Do?**
 
 Voice-to-Text Transcription: Hit record and talk. Voxxed.ai will convert your speech into text in real time (or near real time). It’s like having a personal stenographer, except it won’t roll its eyes at your weird ideas. Perfect for note-taking, journaling, or creating a written record of your cat’s meowing (hey, not judging).
 
@@ -30,7 +30,7 @@ Hands-Free Convenience: Use it while driving (safely!), cooking, or whenever you
 
 No Cloud? No Problem (Planned): We know sometimes you’re on a flaky network or Mr. Privacy McParanoid. We’re working on an offline mode where a lighter version of the model runs on-device. It’s an in-progress goal 🤞. For now, an internet connection lets you enjoy the full AI superpowers.
 
-Tech Stack & Under the Hood 🤓
+**Tech Stack & Under the Hood 🤓**
 
 OpenAI Whisper – This is the ears of our operation. Whisper is a fancy neural network that’s been trained on like 75 zillion hours of audio. It’s really good at turning sounds into text. We call an API to use it (so we don’t melt your phone’s CPU), and it responds with transcripts that make old voice assistants cry.
 
@@ -46,7 +46,7 @@ Architecture: We’ve got a lightweight backend (Node.js express or Cloud Functi
 
 (Did we mention no Microsoft/Amazon tools? That’s right, this project is officially free of Azure and AWS. It’s our little tribute to open ecosystems – and maybe because our PM once had an ex at Amazon... we don’t talk about that.) 🙊
 
-Getting Started
+**Getting Started**
 
 Ready to get voxxed? Here’s how you can try it out (and even build/contribute if you’re into that):
 
@@ -68,7 +68,7 @@ Save & Sync: Logged in with an account? Great, your notes and commands sync to t
 
 Enjoy the Freedom: Close the app, come back later – your stuff will still be there. We’re here whenever you feel like talking. And unlike a human friend, we never tire of listening (seriously, our AI will happily let you monologue about quantum physics or the plot of the latest Netflix show).
 
-Building from Source: If you’re a developer or a curious cat:
+**Building from Source:** If you’re a developer or a curious cat:
 
 Make sure you have Flutter or Node and a web server set up, depending on which part you want to run.
 
@@ -80,7 +80,7 @@ You’ll need an OpenAI API key for the heavy AI stuff. Get one from OpenAI, the
 
 Run the app: for web, npm start (or flutter run -d chrome if using Flutter web). For mobile, open in Android Studio or Xcode and hit run. For backend, node index.js or deploy the Firebase function. It sounds like a lot, but we promise it’s easier than assembling IKEA furniture.
 
-Roadmap & Future Dreams
+**Roadmap & Future Dreams**
 
 We’re just getting started (AI babies taking first steps, aww 😇). Here’s where we’re headed, given enough caffeine and coding hours:
 
@@ -94,17 +94,17 @@ UI/UX Polish & Personalization: The current UI is simple. We’ll be adding them
 
 Community Plugins: This is a dream, but how cool if devs could add custom commands easily? Maybe you want Voxxed.ai to integrate with your smart fridge or play Dungeons & Dragons with you via voice. In the spirit of open source, we might open up a plugin system down the road. Then the world is your oyster (your voice oyster? we’ll work on the catchphrase).
 
-Contributing
+**Contributing**
 
 Hey, you’ve read this far – maybe you like Voxxed.ai as much as we do! Contributions are welcome. Whether it’s filing issues, improving documentation, or writing code, we appreciate your help. Check out our CONTRIBUTING.md (we’ll write it, promise) for guidelines. With a community of bright minds, we can truly make Voxxed.ai the people’s voice assistant.
 
 Also, we love feedback. If something’s not working (or you have a feature idea that would make Voxxed 10× more awesome), hit us up by opening an issue or joining the project Discord (invite in the repo).
 
-The Name 🤔
+**The Name 🤔**
 
 Why Voxxed.ai? Vox means voice in Latin, and when you’re “voxxed” – you’re empowered by voice (also it sounds like “boxed” but we’re outside the box, oh the irony!). The .ai in the name proudly signals we’ve got artificial intelligence under the hood… plus it makes for a slick domain name. We went through a dozen names (RIP Aura AI, Yap AI, etc.) but settled on Voxxed.ai because it’s unique, just like our approach. And let’s be honest, everything sounds cooler with an X or two. 😎
 
-Disclaimer & Thanks
+**Disclaimer & Thanks**
 
 Voxxed.ai is in MVP stage – which means she’s a baby AI learning to walk. There might be hiccups or misinterpretations (if it writes “duck” when you definitely didn’t say duck… our bad). Please use it with a sense of humor and patience. We’re working hard to improve every day.
 
@@ -112,6 +112,6 @@ Big thanks to the open-source community and AI research community: without proje
 
 Now stop reading – go talk to Voxxed.ai and let your voice run the show! 🎉
 
-Happy yapping — err, voxxing!
+Happy voxxing!
 
 – The Voxxed.ai Team (and our resident AI product manager, who may or may not be ChatGPT in disguise)
